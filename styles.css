@@ -1,46 +1,54 @@
 /*  your css code here. If applicable */
-
-
+body{
+	 background-color: #f8f8f8;
+     font-family: Arial, sans-serif;
+	
+}
+h2{
+	text-align:center
+}
 .book-library{
-	display:flex-inline;
-	justify-content:center;
-	align-items:center;
-	box-shadow: 3px 3px 5px 6px #ccc;
-	background-color:#f8f8f8;
+	        background-color: #ffffff;
+            padding: 20px;
+        	display:flex-inline;
+            flex-wrap: wrap;
+            justify-content: space-around;            	
 }
-h1{
-	height:50px;
-	background-color:#f8f8f8;
-	text-align: center;
-}
-.d{
-	 font-weight: 900;
-}
-.c{
-  display: block;
-  width: 90%;
-  border: none;
-  background-color: #2ecc71;
-  padding: 14px 28px;
-  font-size: 16px;
-	margin-left:auto;
-	margin-right: auto;
-  cursor: pointer;
-  text-align: center;
-	color: white;
-	border-radius: 5px;
-}
-.d,.x{
-	margin-left:auto;
-	margin-right:auto;
-}
+.book {
+            width: 250px;
+            margin: 20px;
+            padding: 10px;
+            border: 1px solid #ddd;
+            background-color: #fff;
+            text-align: center;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+.book>img {
+            max-width: 100%;
+            height: auto;
+        }
+    .book>h3 {
+            font-size: 18px;
+            margin-right:90px;
+		margin-top:10px;
+		margin-bottom:-10px;
+        }
 
-.x{
-	color:#777777;
-}
-.center {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 100px;
-}
+        /* Book author and price */
+.author {
+            color: #777777;
+            font-size: 14px;
+	        margin-right:150px;
+	       margin-bottom:-9px;
+        }
+
+        .price {
+			background-color:lightgreen;
+            color: white;
+            font-size: 16px;
+            margin-top: 10px;
+			display:inline-block;
+			border-radius:5px;
+			text-align:center;
+			width:100%
+        }
