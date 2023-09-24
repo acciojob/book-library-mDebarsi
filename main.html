@@ -1,16 +1,88 @@
 <!DOCTYPE html>
-
-<html>
-
+<html lang="en">
 <head>
-	<link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Library</title>
+    <style>
+        /* Body background */
+        body {
+            background-color: #f8f8f8;
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        /* Library container */
+        .book-library {
+            background-color: #ffffff;
+            padding: 20px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+
+        /* Book block */
+        .book {
+            width: 250px;
+            margin: 20px;
+            padding: 10px;
+            border: 1px solid #ddd;
+            background-color: #fff;
+            text-align: center;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Book cover image */
+        .book img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        /* Book title */
+        .book h3 {
+            font-size: 18px;
+            margin: 10px 0;
+        }
+
+        /* Book author and price */
+        .book .author {
+            color: #777777;
+            font-size: 14px;
+        }
+
+        .book .price-block {
+            color: #2ecc71;
+            font-size: 16px;
+            margin-top: 10px;
+        }
+    </style>
 </head>
-
 <body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
+    <div class="book-library">
+        <!-- Book 1 -->
+        <div class="book">
+            <img src="https://via.placeholder.com/150" alt="Spy in the Amber">
+            <h3>Spy in the Amber</h3>
+            <p class="author">Author: Author Name</p>
+            <p class="price-block">Price: $19.99</p>
+        </div>
 
+        <!-- Book 2 -->
+        <div class="book">
+            <img src="https://via.placeholder.com/150" alt="Sacred Games">
+            <h3>Sacred Games</h3>
+            <p class="author">Author: Another Author</p>
+            <p class="price-block">Price: $24.99</p>
+        </div>
+
+        <!-- Book 3 -->
+        <div class="book">
+            <img src="https://via.placeholder.com/150" alt="Byomkesh Bakshi">
+            <h3>Byomkesh Bakshi</h3>
+            <p class="author">Author: Yet Another Author</p>
+            <p class="price-block">Price: $14.99</p>
+        </div>
+    </div>
 </body>
-
 </html>
