@@ -9,20 +9,18 @@
 	background-color:#f8f8f8;
 	padding:30px;
 }
-.book>img{
+.book img{
 	display:block;
 	margin-left:auto;
 	margin-right:auto;
 }
-.book>p{
+.book p{
 	color:#777777;
 }
-.book>div{
+.book div{
 	background-color:#2ecc71;
 	text-align:center;
 	color:white;
 	padding:10px;
-	border-radius:5px;	
+	border-radius:5px;
 }
-
-
